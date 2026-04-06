@@ -4,9 +4,9 @@ export default {
       wrapper: "cloudflare-node",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: "dummy",
-      tagCache: "dummy",
-      queue: "direct",
+      incrementalCache: "kv", // instead of dummy
+      tagCache: "kv", // instead of dummy
+      queue: "kv", // instead of direct
     },
   },
   edgeExternals: ["node:crypto"],
@@ -16,9 +16,9 @@ export default {
       wrapper: "cloudflare-edge",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: "dummy",
-      tagCache: "dummy",
-      queue: "direct",
+      incrementalCache: "kv",
+      tagCache: "kv",
+      queue: "kv",
     },
   },
 };
