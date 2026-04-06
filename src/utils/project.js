@@ -6,16 +6,11 @@ export const projects = [
     detail:
       "A beautiful and functional Recipe App built with Flutter! This app allows users to browse, search, and save favorite recipes with a smooth and visually appealing interface.",
 
-    tech: [
-      "Dart",
-      "Flutter",
-      "Rest api",
-      "Shared preference",
-      "Riverpod",
-    ],
+    tech: ["Dart", "Flutter", "Rest api", "Shared preference", "Riverpod"],
     source: "https://github.com/pranesh12/recepie",
-   
-    image: "https://github.com/user-attachments/assets/cec0d9f2-de84-4ffc-9ba4-dfd724b57ba9",
+
+    image:
+      "https://github.com/user-attachments/assets/cec0d9f2-de84-4ffc-9ba4-dfd724b57ba9",
   },
 
   {
@@ -26,7 +21,7 @@ export const projects = [
       "An elegant e-commerce mobile app built with Flutter and Express.js, featuring user authentication, product search, and secure purchasing.",
 
     tech: [
-     "Dart",
+      "Dart",
       "Flutter",
       "Rest api",
       "Shared preference",
@@ -36,8 +31,8 @@ export const projects = [
       "mongoose",
     ],
     source: "https://github.com/pranesh12/kick_start",
-  
-    image: "https://github.com/user-attachments/assets/04200880-198b-4c18-87ec-326a843b6118",
-  },
 
+    image:
+      "https://github.com/user-attachments/assets/04200880-198b-4c18-87ec-326a843b6118",
+  },
 ];
