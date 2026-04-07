@@ -91,13 +91,12 @@ const Hero = () => {
             {/* Floating image */}
             <div className="animate-float relative z-10">
               <div className="animate-pulse-ring rounded-full">
-                <Image
+                <img
                   width={256}
                   height={256}
-                  src="/asset/ok.webp"
+                  src="https://res.cloudinary.com/dxjg6mzbq/image/upload/v1775539298/ok_wjv6ew.webp"
                   alt="Pranesh Chakma"
                   className="rounded-full md:w-80 md:h-80 object-cover shadow-2xl border-4 border-white"
-                  priority
                 />
               </div>
             </div>
