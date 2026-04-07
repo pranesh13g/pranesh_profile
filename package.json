@@ -6,7 +6,8 @@
     "dev": "next dev",
     "start": "next start",
     "build:cloudflare": "opennextjs-cloudflare build",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "build": "next build"
   },
   "dependencies": {
     "next": "15.2.4",
