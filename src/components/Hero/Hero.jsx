@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ok from "../../../public/asset/ok.webp";
+
 import Link from "next/link";
 
 const Hero = () => {
@@ -92,9 +92,11 @@ const Hero = () => {
             <div className="animate-float relative z-10">
               <div className="animate-pulse-ring rounded-full">
                 <Image
-                  src={ok}
+                  width={256}
+                  height={256}
+                  src="/asset/ok.webp"
                   alt="Pranesh Chakma"
-                  className="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-2xl border-4 border-white"
+                  className="rounded-full md:w-80 md:h-80 object-cover shadow-2xl border-4 border-white"
                   priority
                 />
               </div>
