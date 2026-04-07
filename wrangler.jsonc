@@ -1,4 +1,5 @@
 {
   "name": "pranesh-chakma-portfolio",
-  "main": ".open-next/worker.js"
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-04-07",
 }
