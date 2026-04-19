@@ -8,13 +8,13 @@ const experiences = [
     description:
       "Built cross-platform Flutter apps with responsive UI and smooth UX. Used Provider for scalable state management, integrated REST APIs with JWT authentication, and collaborated with backend, design, and clients to deliver user-focused solutions.",
   },
-  {
-    title: "Junior Web Developer (Intern)",
-    company: "Skyland Web",
-    period: "Mar 2024 — Sep 2024",
-    description:
-      "Designed and built a user-centric web application with a focus on performance. Wrote clean, maintainable code to ensure long-term quality and easy team collaboration.",
-  },
+  // {
+  //   title: "Junior Web Developer (Intern)",
+  //   company: "Skyland Web",
+  //   period: "Mar 2024 — Sep 2024",
+  //   description:
+  //     "Designed and built a user-centric web application with a focus on performance. Wrote clean, maintainable code to ensure long-term quality and easy team collaboration.",
+  // },
 ];
 
 const Experience = () => {
